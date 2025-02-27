@@ -47,10 +47,10 @@ class _AboutUiState extends State<AboutUi> {
                 height: MediaQuery.of(context).size.height * 0.02,
               ),
               Text(
-                'applications for BBQBuffet owner'
-                '\nfor thai people'
-                '\nby thai people'
-                '\nif you want app like this'
+                'An app for Buffet Owners'
+                '\nBy Thai People'
+                '\nFor Thai People'
+                '\nIf you want an app like this'
                 '\ncontract us',
                 textAlign: TextAlign.center,
                 style: TextStyle(

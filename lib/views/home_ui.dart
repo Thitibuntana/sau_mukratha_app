@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:animated_notch_bottom_bar/animated_notch_bottom_bar/animated_notch_bottom_bar.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:sau_mukratha_app/views/about_ui.dart';
-import 'package:sau_mukratha_app/views/cal_bin_ui.dart';
+import 'package:sau_mukratha_app/views/cal_bill_ui.dart';
 import 'package:sau_mukratha_app/views/menu_ui.dart';
 
 class HomeUi extends StatefulWidget {
@@ -18,7 +18,7 @@ class _HomeUiState extends State<HomeUi> {
   NotchBottomBarController _pageController =
       new NotchBottomBarController(index: 1);
 
-  List<Widget> viewInBody = [CalBinUi(), MenuUi(), AboutUi()];
+  List<Widget> viewInBody = [CalBillUI(), MenuUi(), AboutUi()];
 
   int indexShow = 1;
 
